@@ -5,6 +5,16 @@
 nav{
   background-color: lightblue;
 }
+[class="(╯°□°）╯︵ ┻━┻"]{
+  display: inline-block;
+}
+#img_logo{
+  animation: fade 10s infinite;
+  height: 100px;
+  width: 125px;
+  box-shadow: 0 0 8px 8px black inset;
+}
+
 ul{
   list-style-type: none;
       margin: 0;
@@ -19,22 +29,25 @@ li{
 }
 li a{
   display: inline-block;
-  background-color: #dddddd;
+  background-color: violet;
+  font-size: 20px;
+  text-decoration: none;
 }
-.div_nav{
-  background-color: blue;
-  margin: 20px;
-}
-img{
-  display: inline-block;
-  height: 100px;
-  width: 125px;
-}
+
 .div_h1{
   height: 800px;
   background-image: url(munder_section1.jpeg);
   background-size: cover;
 }
+
+.h1_company{
+  text-shadow: 2px 2px blue;
+}
+p{
+  font-size: 40px;
+  text-shadow: 4px 5px lightblue;
+}
+
 h1{
   border-style: double none double none;
   border-color: purple;
@@ -43,9 +56,7 @@ h1{
 footer{
   background: linear-gradient(white, #D8E2DC);
 }
-#img_logo{
-  animation: fade 10s infinite;
-}
+
 @keyframes fade {
   0%{opacity: 0};
   25%{opacity: .2};
@@ -53,3 +64,7 @@ footer{
   75%{opacity: .8};
   100%{opacity: .1};
 }
+
+/* img{
+  display: inline-block;
+} */
